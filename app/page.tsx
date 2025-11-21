@@ -3,8 +3,25 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="flex justify-between items-center w-full mt-2 gap-5 max-[600px]:flex-wrap">
-      <section className="w-4/5 max-[600px]:w-full">
+    <main className="flex justify-between px-5 items-center w-full mt-2 gap-5 max-[600px]:flex-wrap">
+      <aside className="w-1/5 p-5 bg-slate-950 rounded-3xl max-[600px]:w-full max-[600px]:px-5">
+        <h1 className="text-center text-3xl mb-5">¡Hola!</h1>
+        <p className="mb-5">Soy un estudiante de la Universidad Nacional de Hurlingham con solidos conocimientos en maquetado web con las siguientes tecnologías:</p>
+        <ul className="grid grid-cols-2 grid-rows-2 list-disc p-5">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Bootstrap</li>
+          <li>Tailwind</li>
+        </ul>
+        <p className="mb-5">Tambien cuento con el conocmiento de estas habilidades por fuera de lo aprendido en la universidad</p>
+        <ul className="mb-5 list-disc px-5">
+          <li>Python</li>
+          <li>Uso de programas de edicion de imágenes/videos</li>
+        </ul>
+        <p>Quedo a dispocicion de lo que nececiten, muchas gracias</p>
+      </aside>
+      <section className="w-4/5 p-0 m-0 max-[600px]:w-full">
 
         <h1 className="text-center mb-5 text-3xl">Mis Proyectos</h1>
 
@@ -56,24 +73,6 @@ export default function Home() {
         </article>
       </section>
 
-      <aside className="w-1/5 max-[600px]:w-full max-[600px]:px-5 max-[600px]:border-t max-[600px]:border-indigo-900">
-        <h1 className="text-center mb-5 text-3xl">Presentacion</h1>
-        <p className="mb-5">Soy un estudiante de la Universidad Nacional de Hurlingham con solidos conocimientos en maquetado web con las siguientes tecnologías:</p>
-        <ul className="ml-5 mb-5">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Bootstrap</li>
-          <li>Tailwind</li>
-          <li>Next. Js</li>
-        </ul>
-        <p className="mb-5">Tambien cuento con el conocmiento de estas habilidades por fuera de lo aprendido en la universidad</p>
-        <ul className="ml-5 mb-5">
-          <li>Python</li>
-          <li>Uso de programas de edicion de imágenes/videos</li>
-        </ul>
-        <p>Quedo a dispocicion de lo que nececiten, desde ya muchas gracias</p>
-      </aside>
     </main>
   );
 }
