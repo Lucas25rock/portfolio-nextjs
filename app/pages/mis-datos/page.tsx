@@ -55,7 +55,7 @@ export default function MisDatos() {
         </article>
       </section>
 
-      <aside className="w-1/4 text-left flex flex-col items-center wrap-break-word max-[600px]:w-full max-[600px]:px-5">
+      <aside className="w-1/4 bg-slate-950 rounded-3xl p-5 text-left flex flex-col items-center wrap-break-word max-[600px]:w-full max-[600px]:px-5">
         <h1 className="text-3xl mb-2">Mi Perfíl</h1>
         <div className="flex justify-between items-center gap-2">
                 <img src="/img/yo/Yo.jpg" height="150px" width="150px" className="rounded-3xl" alt="" />
@@ -77,7 +77,7 @@ export default function MisDatos() {
             </li>
             <li className="my-2">
                 <p>Universidad de Morón</p>
-                <p>Abandonado</p>
+                <p>23/03/24 - 12/9/24</p>
             </li>
             <li className="my-2">
                 <p>E.E.S N°151</p>
@@ -88,13 +88,8 @@ export default function MisDatos() {
         <h1 className="text-3xl">Redes Sociales</h1>
 
         <div className="flex justify-between items-center gap-2 p-2">
-            <Link href="https://www.instagram.com/lucas.ck7/">
-                <div className="w-10 h-10">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" className="w-full h-full" alt="" />
-                </div>
-            </Link>
 
-            <Link href="www.linkedin.com/in/lucas-serrano-92aa10263">
+            <Link href="https://www.linkedin.com/in/lucas-serrano-92aa10263/">
                 <div className="w-10 h-10">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png" className="w-full h-full" alt="" />
                 </div>
